@@ -1,0 +1,4 @@
+string phrase = "Good Evening Boss";
+        string command = "espeak \"" + phrase + "\"";
+        const char *charCommand = command.c_str();
+        system(charCommand);
